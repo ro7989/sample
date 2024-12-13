@@ -1,0 +1,8 @@
+def fibonacci_up_to_100():
+    a, b = 0, 1
+    while a <= 100:
+        print(a, end=' ')
+        a, b = b, a + b
+
+# Call the function to print Fibonacci numbers from 1 to 100
+fibonacci_up_to_100()
